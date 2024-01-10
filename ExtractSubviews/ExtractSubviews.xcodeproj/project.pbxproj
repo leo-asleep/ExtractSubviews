@@ -9,18 +9,26 @@
 /* Begin PBXBuildFile section */
 		B3471DCE2B4ECD540095344B /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3471DCD2B4ECD540095344B /* Color+.swift */; };
 		B34CC3F92B4E84C50048EDAB /* ExtractSubviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CC3F82B4E84C50048EDAB /* ExtractSubviewsApp.swift */; };
-		B34CC3FB2B4E84C50048EDAB /* 1. 통으로 개발하는 방법.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CC3FA2B4E84C50048EDAB /* 1. 통으로 개발하는 방법.swift */; };
+		B34CC3FB2B4E84C50048EDAB /* WholeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CC3FA2B4E84C50048EDAB /* WholeCode.swift */; };
 		B34CC3FD2B4E84C70048EDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34CC3FC2B4E84C70048EDAB /* Assets.xcassets */; };
 		B34CC4002B4E84C70048EDAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34CC3FF2B4E84C70048EDAB /* Preview Assets.xcassets */; };
+		B3A3231B2B4ED29A004C7367 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A3231A2B4ED29A004C7367 /* PermissionView.swift */; };
+		B3A3231F2B4ED316004C7367 /* PermissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A3231E2B4ED316004C7367 /* PermissionCardView.swift */; };
+		B3A323212B4ED3C4004C7367 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A323202B4ED3C4004C7367 /* CTAButton.swift */; };
+		B3A323242B4ED430004C7367 /* PermissionBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A323232B4ED430004C7367 /* PermissionBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3471DCD2B4ECD540095344B /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		B34CC3F52B4E84C50048EDAB /* ExtractSubviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtractSubviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34CC3F82B4E84C50048EDAB /* ExtractSubviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsApp.swift; sourceTree = "<group>"; };
-		B34CC3FA2B4E84C50048EDAB /* 1. 통으로 개발하는 방법.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. 통으로 개발하는 방법.swift"; sourceTree = "<group>"; };
+		B34CC3FA2B4E84C50048EDAB /* WholeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeCode.swift; sourceTree = "<group>"; };
 		B34CC3FC2B4E84C70048EDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34CC3FF2B4E84C70048EDAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A3231A2B4ED29A004C7367 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		B3A3231E2B4ED316004C7367 /* PermissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionCardView.swift; sourceTree = "<group>"; };
+		B3A323202B4ED3C4004C7367 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		B3A323232B4ED430004C7367 /* PermissionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,9 @@
 		B34CC3F72B4E84C50048EDAB /* ExtractSubviews */ = {
 			isa = PBXGroup;
 			children = (
+				B3A323182B4ED272004C7367 /* 1. 통으로 개발하는 방법 */,
+				B3A323192B4ED288004C7367 /* 2. 구조체로 나누는 방법 */,
 				B34CC3F82B4E84C50048EDAB /* ExtractSubviewsApp.swift */,
-				B34CC3FA2B4E84C50048EDAB /* 1. 통으로 개발하는 방법.swift */,
 				B34CC3FC2B4E84C70048EDAB /* Assets.xcassets */,
 				B34CC3FE2B4E84C70048EDAB /* Preview Content */,
 				B3471DCD2B4ECD540095344B /* Color+.swift */,
@@ -68,6 +77,51 @@
 				B34CC3FF2B4E84C70048EDAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3A323182B4ED272004C7367 /* 1. 통으로 개발하는 방법 */ = {
+			isa = PBXGroup;
+			children = (
+				B34CC3FA2B4E84C50048EDAB /* WholeCode.swift */,
+			);
+			name = "1. 통으로 개발하는 방법";
+			path = "1. 통으로 개발하는 방법";
+			sourceTree = "<group>";
+		};
+		B3A323192B4ED288004C7367 /* 2. 구조체로 나누는 방법 */ = {
+			isa = PBXGroup;
+			children = (
+				B3A323222B4ED3D0004C7367 /* SharedComponents */,
+				B3A3231D2B4ED2C1004C7367 /* PermissionView */,
+			);
+			name = "2. 구조체로 나누는 방법";
+			path = "2. 구조체로 나누는 방법";
+			sourceTree = "<group>";
+		};
+		B3A3231C2B4ED2B7004C7367 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3231E2B4ED316004C7367 /* PermissionCardView.swift */,
+				B3A323232B4ED430004C7367 /* PermissionBackgroundView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		B3A3231D2B4ED2C1004C7367 /* PermissionView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3231C2B4ED2B7004C7367 /* SubViews */,
+				B3A3231A2B4ED29A004C7367 /* PermissionView.swift */,
+			);
+			path = PermissionView;
+			sourceTree = "<group>";
+		};
+		B3A323222B4ED3D0004C7367 /* SharedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B3A323202B4ED3C4004C7367 /* CTAButton.swift */,
+			);
+			path = SharedComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34CC3FB2B4E84C50048EDAB /* 1. 통으로 개발하는 방법.swift in Sources */,
+				B3A3231B2B4ED29A004C7367 /* PermissionView.swift in Sources */,
+				B34CC3FB2B4E84C50048EDAB /* WholeCode.swift in Sources */,
+				B3A323242B4ED430004C7367 /* PermissionBackgroundView.swift in Sources */,
+				B3A323212B4ED3C4004C7367 /* CTAButton.swift in Sources */,
 				B3471DCE2B4ECD540095344B /* Color+.swift in Sources */,
 				B34CC3F92B4E84C50048EDAB /* ExtractSubviewsApp.swift in Sources */,
+				B3A3231F2B4ED316004C7367 /* PermissionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
