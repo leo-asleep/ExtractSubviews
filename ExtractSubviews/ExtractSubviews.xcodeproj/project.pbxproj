@@ -16,6 +16,7 @@
 		B3A3231F2B4ED316004C7367 /* PermissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A3231E2B4ED316004C7367 /* PermissionCardView.swift */; };
 		B3A323212B4ED3C4004C7367 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A323202B4ED3C4004C7367 /* CTAButton.swift */; };
 		B3A323242B4ED430004C7367 /* PermissionBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A323232B4ED430004C7367 /* PermissionBackgroundView.swift */; };
+		B3A323272B4ED497004C7367 /* MethodExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A323262B4ED497004C7367 /* MethodExtractView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B3A3231E2B4ED316004C7367 /* PermissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionCardView.swift; sourceTree = "<group>"; };
 		B3A323202B4ED3C4004C7367 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		B3A323232B4ED430004C7367 /* PermissionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionBackgroundView.swift; sourceTree = "<group>"; };
+		B3A323262B4ED497004C7367 /* MethodExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodExtractView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				B3A323182B4ED272004C7367 /* 1. 통으로 개발하는 방법 */,
 				B3A323192B4ED288004C7367 /* 2. 구조체로 나누는 방법 */,
+				B3A323252B4ED47A004C7367 /* 3. 메소드로 나누는 방법 */,
 				B34CC3F82B4E84C50048EDAB /* ExtractSubviewsApp.swift */,
 				B34CC3FC2B4E84C70048EDAB /* Assets.xcassets */,
 				B34CC3FE2B4E84C70048EDAB /* Preview Content */,
@@ -122,6 +125,15 @@
 				B3A323202B4ED3C4004C7367 /* CTAButton.swift */,
 			);
 			path = SharedComponents;
+			sourceTree = "<group>";
+		};
+		B3A323252B4ED47A004C7367 /* 3. 메소드로 나누는 방법 */ = {
+			isa = PBXGroup;
+			children = (
+				B3A323262B4ED497004C7367 /* MethodExtractView.swift */,
+			);
+			name = "3. 메소드로 나누는 방법";
+			path = "3. 메소드로 나누는 방법";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A3231B2B4ED29A004C7367 /* PermissionView.swift in Sources */,
+				B3A323272B4ED497004C7367 /* MethodExtractView.swift in Sources */,
 				B34CC3FB2B4E84C50048EDAB /* WholeCode.swift in Sources */,
 				B3A323242B4ED430004C7367 /* PermissionBackgroundView.swift in Sources */,
 				B3A323212B4ED3C4004C7367 /* CTAButton.swift in Sources */,
